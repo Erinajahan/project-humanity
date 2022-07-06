@@ -78,7 +78,7 @@ body{
         #specific{
             border: 3px solid rgb(37, 115, 134);
             background-color: rgb(141, 209, 209);
-            color: bold rgb(37, 115, 134);
+            color: bold rgb(46, 115, 133);
 
         }
         .donation-area{
@@ -97,9 +97,8 @@ body{
         .provide-items{ 
             
             text-align: center;
-            border: 1px solid rgb(44, 128, 134);
+            border: 1px solid rgb(250, 255, 255);
             padding: 25px;
-            box-shadow: 2px 2px 4px rgb(36, 154, 184);
             border-radius: 5px;
             transition: .8ms;
             margin-left: 3%;
@@ -107,10 +106,89 @@ body{
             margin-top: 30px;
             background-color: rgb(219, 247, 237);
             text-size-adjust: justify;
-            
-
         }
+            
+            #medicine{background-color: rgb(233, 221, 232);
+
+            }
+            #shelter{
+
+            background-color: rgb(243, 239, 216);
+
+            }
         .icon-img{
             width: 70px;
         }
+
+        .they-need-us{
+            text-align: justify; 
+            margin-right: 10% ;
+            margin-left: 10%;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-top: 10%;
+            
+        }
+        .people-img{
+            display:flex;
+            border-radius: 5px;
+            transition: .5ms;
+            margin-top: 40px;
+            width: 100%;
+            height: 300px;
+            position: relative;
+            
+        }
+        .subscribe-section{
+            text-align: center;
+            margin-top: 150px;
+            margin-bottom: 100px;
+
+        }
+        .option{
+            text-align: center;
+             padding: 70px;
+            border-radius: 5px;
+            transition: .8ms;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-color: rgb(202, 235, 223);
+            text-size-adjust: justify; 
+
+            
+            
+            
+        }
+        #email{
+            padding: 20px ;
+            color:black;
+            padding: 10px 30px 10px 30px ;
+            background-color: burlywood;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            border-radius: 5%;
+
+        }
+        footer{ 
+            text-align: center;
+            margin-top:100px ;
+            background-color: rgb(21, 75, 92);
+            position: relative;
+            background-size:cover;
+            height: 100px;
+            overflow: hidden;
+            
+        }
+        footer h4{ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: bold italic;
+            color: black;
+            font-weight: 200;
+            font-size: large;
+            
+        }
+        footer p{
+            color: dimgray;
+        }
+
         
