@@ -152,24 +152,33 @@ body{
             transition: .8ms;
             margin-left: 30%;
             margin-right: 30%;
-            background-color: rgb(202, 235, 223);
+            background-color: rgb(240, 230, 177);
             text-size-adjust: justify; 
-
-            
-            
-            
+            font-size: larger;
         }
-        #email{
-            padding: 20px ;
-            color:black;
-            padding: 10px 30px 10px 30px ;
-            background-color: burlywood;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-weight: 600;
-            border-radius: 5%;
+            
 
-        }
+            input{
+                background-color: rgb(171, 223, 230);
+            font-size: large;
+            color: darkslategray;
+            text-align: center;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 2px;
+            margin-right: -7px;
+            border-color:rgb(189, 219, 216);
+            
+            
+
+            }
+            
+            
+        
+
+        
         footer{ 
             text-align: center;
             margin-top:100px ;
